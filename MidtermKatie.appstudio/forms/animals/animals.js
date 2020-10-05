@@ -1,7 +1,8 @@
-/* myAnimals = ["dog", "cat", "horse", "meerkat"]
-yourAnimal = prompt("Please choose an animal")
+/*
+let myAnimals = ["dog", "cat", "horse", "meerkat"]
+let yourAnimal = prompt("Please choose an animal")
 yourAnimal = yourAnimal.toLowerCase()
-newAnimals = myAnimals.push(yourAnimal)
-console.log(newAnimals)
-console.log(`The last animal is a ${newAnimals.pop()}.`)
+myAnimals.push(yourAnimal)
+let lastAnimal = myAnimals.pop()
+console.log(`The last animal is a ${lastAnimal}.`)
 */
